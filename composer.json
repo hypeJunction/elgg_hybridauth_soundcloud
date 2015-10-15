@@ -1,0 +1,28 @@
+{
+	"name": "hypejunction/elgg_hybridauth_soundcloud",
+	"version": "0.0.0",
+	"type": "elgg-plugin",
+	"description": "SoundCloud provider for elgg_hybridauth",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"hybridauth",
+		"soundcloud"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require-dev": {
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
